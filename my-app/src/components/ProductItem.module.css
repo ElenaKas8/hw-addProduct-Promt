@@ -1,0 +1,33 @@
+.product{
+    border: 1px solid green;
+    gap: 30px;
+   padding: 20px;
+   background-color: azure;
+   border-radius: 10px;
+   max-width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   
+   
+}
+button{
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 30%;
+    border: none;
+    background-color: rgb(222, 246, 246);
+
+}
+
+.buttonadd{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+
+}
+.product:not(:last-child) {
+    margin-bottom: 20px; }
+  
